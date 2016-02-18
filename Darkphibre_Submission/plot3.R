@@ -13,6 +13,8 @@ plot(xaxis, data.filtered$Sub_metering_1,
      type="l")
 lines(xaxis, data.filtered$Sub_metering_2, col="red")
 lines(xaxis, data.filtered$Sub_metering_3, col="blue")
+
+#NOTE: In the original source plots, the legend does indeed have Orange instead of Red.
 legend("topright", 
        col=c("black","orange","blue"), 
        lty=1,

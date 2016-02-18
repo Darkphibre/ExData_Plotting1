@@ -29,6 +29,8 @@ plot(datetime, data.filtered$Sub_metering_1,
      type="l")
 lines(datetime, data.filtered$Sub_metering_2, col="red")
 lines(datetime, data.filtered$Sub_metering_3, col="blue")
+
+#NOTE: In the original source plots, the legend does indeed have Orange instead of Red.
 legend("topright", 
        col=c("black","orange","blue"), 
        lwd=2,
